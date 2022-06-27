@@ -31,27 +31,28 @@ Pre-Requisites,
 
 3.  In Register an application fill the all necessary details and click register.
 
-  ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/3.PNG)
+   ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/3.PNG)
 
 4. Once the applicaiton will register will get **Azure Client Id and Azure TenantId**
 
-  ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/4.PNG)
+   ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/4.PNG)
 
 5. Next, we need to create a Secret Value for the application. Click **Certificates & Secrets** from the left pane and Select New Client secret and fill all details for secret and then click Add.
 
-  ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/5.PNG)
+   ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/5.PNG)
 
 6. Once Added Secret it will generate the value for **AzureClientSecret**.
 
-  ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/6.PNG)
+   ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/6.PNG)
  
 
 7. Now, everything we have all the details. Finally, we need to permit as we created the AAD application. So we need to add the AAD application to our subscription. Go to Subscription=>Access control (IAM)->Add
 
-  ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/6.PNG)
- 
+     ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/7.PNG) 
 
  8. Next populated popup you need to give the role, Assign access to and select as you **created application name** in the AAD, then save.
+
+     ![alt text](https://github.com/AnbuMani27/AutomaticAzureAppServices/blob/main/Images/8.PNG)
 
   Now execute your project. It will work Start and Stop base on your action.
 
